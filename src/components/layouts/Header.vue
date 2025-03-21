@@ -1,5 +1,5 @@
 <template>
-	<header class="p-4 bg-primary text-white">
+	<header>
 		<NavBar />
 	</header>
 </template>
