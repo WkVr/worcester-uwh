@@ -1,6 +1,8 @@
 <template>
-	<header>
-		<NavBar />
+	<header class="screen-w-full bg-primary-main">
+		<div class="body-container">
+			<NavBar />
+		</div>
 	</header>
 </template>
 

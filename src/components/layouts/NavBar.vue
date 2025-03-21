@@ -1,5 +1,5 @@
 <template>
-	<Disclosure as="nav" class="bg-primary-main p-4" v-slot="{ open }">
+	<Disclosure as="nav" class="p-4 sm:p-0 sm:px-2" v-slot="{ open }">
 		<div class="max-w-7xl">
 			<div class="relative flex h-16 items-center justify-between">
 				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -14,13 +14,11 @@
 					</DisclosureButton>
 				</div>
 				<div class="flex flex-1 items-center justify-center sm:justify-start">
-					<div
-						class="flex shrink-1 items-center justify-center md:items-stretch md:justify-start"
-					>
+					<div class="flex justify-center sm:justify-start">
 						<img
 							src="@assets/Logo.png"
 							alt="Signature Vision"
-							class="w-1/2 md:w-1/3"
+							class="w-1/2 md:w-1/3 md:my-2"
 						/>
 					</div>
 					<div class="sm:ml-6 sm:block hidden">
