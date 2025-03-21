@@ -13,7 +13,8 @@
 		"paths": {
 			"@/*": ["src/*"],
 			"@components/*": ["src/components/*"],
-			"@assets/*": ["src/assets/*"]
+			"@assets/*": ["src/assets/*"],
+			"@layouts/*": ["src/components/layouts/*"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]

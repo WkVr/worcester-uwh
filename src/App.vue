@@ -1,13 +1,5 @@
-<script setup lang="ts">
-// import HelloWorld from './components/HelloWorld.vue';
-import Header from '@components/layout/Header.vue';
-</script>
+<script setup lang="ts"></script>
 
 <template>
-	<Header />
-	<div class="body-container">
-		<div class="container mx-auto w-full">
-			<!-- <HelloWorld msg="Signature Vision" /> -->
-		</div>
-	</div>
+	<router-view />
 </template>
