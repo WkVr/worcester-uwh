@@ -1,7 +1,7 @@
 <template>
-	<Disclosure as="nav" class="p-4 sm:p-0 sm:px-2" v-slot="{ open }">
+	<Disclosure as="nav" class="p-4 w-full sm:p-0 sm:px-2" v-slot="{ open }">
 		<div class="max-w-7xl">
-			<div class="relative flex h-16 items-center justify-between">
+			<div class="relative flex items-center justify-between">
 				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
 					<!-- Mobile menu button-->
 					<DisclosureButton
@@ -14,11 +14,17 @@
 					</DisclosureButton>
 				</div>
 				<div class="flex flex-1 items-center justify-center sm:justify-start">
-					<div class="flex justify-center sm:justify-start">
+					<div class="flex justify-center sm:justify-start w-full">
 						<img
 							src="@assets/Logo.png"
 							alt="Signature Vision"
-							class="w-1/2 md:w-1/3 md:my-2"
+							class="w-1/2 md:w-1/3 md:my-2 hidden sm:block py-4"
+						/>
+
+						<img
+							src="@assets/TitleLogo.png"
+							alt="Signature Vision"
+							class="sm:hidden h-full"
 						/>
 					</div>
 					<div class="sm:ml-6 sm:block hidden">
