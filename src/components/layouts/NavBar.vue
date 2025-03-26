@@ -1,5 +1,5 @@
 <template>
-	<Disclosure as="nav" class="p-4 w-full sm:p-0 sm:px-2" v-slot="{ open }">
+	<Disclosure as="nav" class="p-2 w-full sm:p-0 sm:px-2" v-slot="{ open }">
 		<div class="max-w-7xl">
 			<div class="relative flex items-center justify-center sm:justify-start">
 				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -16,7 +16,7 @@
 				<img
 					src="@assets/Logo.png"
 					alt="Signature Vision"
-					class="w-1/2 md:w-1/3 md:my-2 py-4 flex"
+					class="w-1/3 md:w-1/4 md:my-2 py-2 flex"
 				/>
 				<div class="sm:block hidden ml-6">
 					<div class="flex space-x-4">

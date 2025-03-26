@@ -3,12 +3,11 @@ import Header from '@components/layouts/Header.vue';
 </script>
 
 <template>
-	<Header />
-	<div class="body-container">
-		<div class="container mx-auto w-full">
-			<main>
-				<router-view />
-			</main>
-		</div>
+	<div class="h-screen">
+		<Header />
+		<main class="pb-6">
+			<router-view />
+		</main>
+		<div class="p-6"></div>
 	</div>
 </template>

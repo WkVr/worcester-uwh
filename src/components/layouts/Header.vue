@@ -1,5 +1,5 @@
 <template>
-	<header class="screen-w-full bg-primary-main">
+	<header class="screen-w-full bg-primary-main sticky top-0">
 		<div class="body-container">
 			<NavBar />
 		</div>

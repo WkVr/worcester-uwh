@@ -20,6 +20,7 @@ module.exports = {
 				secondary: { light: '#fad19e', main: '#F7B15B', dark: ' #f59724' },
 				primaryred: { light: '#f98e86', main: '#F65C52', dark: '#f21c0d' },
 				primaryblue: { light: '#77d4ce', main: '#48C5BD', dark: '#319b94' },
+				'primary-background': '#EBEBEB',
 			},
 		},
 	},
