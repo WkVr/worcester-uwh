@@ -4,6 +4,7 @@ module.exports = {
 	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 	theme: {
 		fontFamily: {
+			montserrat: ['Montserrat'],
 			sans: ['Graphik', 'sans-serif'],
 			serif: ['Merriweather', 'serif'],
 		},

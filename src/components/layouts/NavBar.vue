@@ -10,7 +10,7 @@
 						<span class="absolute -inset-0.5" />
 						<span class="sr-only">Open main menu</span>
 						<Bars3Icon v-if="!open" class="block size-6" aria-hidden="true" />
-						<XMarkIcon v-else class="block size-6" aria-hidden="true" />
+						<MinusIcon v-else class="block size-6" aria-hidden="true" />
 					</DisclosureButton>
 				</div>
 				<img
@@ -28,7 +28,7 @@
 								item.current
 									? 'bg-primary-dark text-white'
 									: 'text-gray-300 hover:bg-secondary-main hover:text-white',
-								'rounded-sm px-3 py-2 text-sm font-medium w-auto',
+								'rounded-sm px-3 py-2 text-sm font-sm w-auto',
 							]"
 							:aria-current="item.current ? 'page' : undefined"
 							>{{ item.name }}</a
@@ -49,7 +49,7 @@
 						item.current
 							? 'bg-primary-dark text-white'
 							: 'text-gray-300 hover:bg-secondary-main hover:text-white',
-						'block rounded-sm px-3 py-2 text-base font-medium',
+						'block rounded-sm px-3 py-2 text-sm font-sm ',
 					]"
 					:aria-current="item.current ? 'page' : undefined"
 					>{{ item.name }}</DisclosureButton
@@ -70,7 +70,12 @@ import {
 	MenuItem,
 	MenuItems,
 } from '@headlessui/vue';
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline';
+import {
+	Bars3Icon,
+	BellIcon,
+	MinusIcon,
+	XMarkIcon,
+} from '@heroicons/vue/24/outline';
 
 import { useRoute } from 'vue-router';
 
