@@ -39,7 +39,7 @@ import Collage from './Collage.vue';
 						a lasting impression.
 					</p>
 					<p
-						class="text-start sm:text-justify text-black w-full sm:w-1/2 pb-10"
+						class="text-start sm:text-justify text-black w-full sm:w-1/2 pt-4 pb-10"
 					>
 						At Signature Vision, we believe that exceptional design has the
 						power to connect, inspire, and drive success. Let’s collaborate to

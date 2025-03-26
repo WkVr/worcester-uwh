@@ -86,7 +86,7 @@ const navigation = [
 		href: pages.home.path,
 		current: checkRoute(pages.home.path),
 	},
-	{
+	/*{
 		name: pages.about.name,
 		href: pages.about.path,
 		current: checkRoute(pages.about.path),
@@ -95,6 +95,6 @@ const navigation = [
 		name: pages.contact.name,
 		href: pages.contact.path,
 		current: checkRoute(pages.contact.path),
-	},
+	},*/
 ];
 </script>
