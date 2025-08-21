@@ -6,7 +6,7 @@
 				<div class="w-auto">
 					<a href="/" class="text-xl font-bold text-gray-800"
 						><img
-							src="@assets/Logo.png"
+							src="@assets/logo.png"
 							alt="Signature Vision"
 							class="w-1/2 md:w-1/4 md:my-2 py-2"
 					/></a>
