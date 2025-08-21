@@ -10,7 +10,7 @@
 					<h2 class="text-center text-white">About Us</h2>
 				</div>
 			</div>
-			<div class="flex flex-col gap-6 p-4 bg-primary-light bg-opacity-50">
+			<div class="card">
 				<div class="body-container">
 					<div class="width-80">
 						<p

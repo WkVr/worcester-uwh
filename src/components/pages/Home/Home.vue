@@ -23,7 +23,7 @@ import Collage from './Collage.vue';
 					<Collage />
 				</div>
 			</div>
-			<div class="flex flex-col gap-6 p-4 bg-primary-dark bg-opacity-70">
+			<div class="card">
 				<div class="body-container grid grid-cols-2">
 					<div class="">
 						<div class="width-80 gap-4">

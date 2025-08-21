@@ -1,4 +1,6 @@
-<script></script>
+<script>
+import HowToVideo from '../HowToVideo.vue';
+</script>
 
 <template>
 	<div
@@ -10,29 +12,100 @@
 					<h2 class="text-center text-white">How to play underwater hockey</h2>
 				</div>
 			</div>
-			<div class="flex flex-col gap-6 p-4 bg-primary-light bg-opacity-50">
+			<div class="card">
 				<div class="body-container">
 					<div class="width-80">
-						<p
-							class="text-start sm:text-justify text-black text-bold w-full text-white"
-						>
-							Sed scelerisque iaculis semper. Aenean tempus fringilla dui, in
-							malesuada lacus pharetra sed. Fusce vel nulla vitae magna
-							vestibulum pellentesque eu viverra augue. Donec pulvinar, diam in
-							elementum faucibus, urna tellus ultricies tortor, quis suscipit
-							lorem lorem quis justo. Nunc consectetur elit ac augue lacinia, in
-							sodales augue cursus. Morbi porttitor consequat ipsum, quis
-							eleifend magna euismod vel. Fusce mattis porttitor feugiat.
-							Maecenas bibendum mattis interdum. Aenean tincidunt pharetra urna,
-							et cursus nisl sollicitudin nec. Sed elementum est at sem
-							placerat, eu hendrerit diam lacinia. Sed laoreet elit non mi
-							iaculis posuere. Aliquam erat volutpat. Donec nec fermentum ante,
-							vel aliquet quam. Orci varius natoque penatibus et magnis dis
-							parturient montes, nascetur ridiculus mus. Pellentesque elementum
-							lacus malesuada fermentum lacinia. Morbi magna est, tempor et
-							ipsum vehicula, hendrerit accumsan dui.
-						</p>
+						<section id="how-uwh-works" aria-labelledby="uwh-title">
+							<h2 id="uwh-title">How Underwater Hockey Works</h2>
+							<p>
+								Underwater hockey (also called “octopush”) is a fast,
+								non-contact team sport played on the bottom of a swimming pool.
+								Two teams of six players (plus subs) use short sticks to push a
+								lead puck into the opponent’s goal.
+							</p>
+
+							<h3 class="mt-4">Basics</h3>
+							<ul>
+								<li>
+									<strong>Teams:</strong> 6 in the water per side, rolling
+									substitutions.
+								</li>
+								<li>
+									<strong>Objective:</strong> Score by pushing the puck into the
+									3-meter goal tray.
+								</li>
+								<li>
+									<strong>Play area:</strong> Pool bottom, typically 25m ×
+									12–15m, depth ~1.8–2.5m.
+								</li>
+								<li>
+									<strong>Game time:</strong> Commonly two halves (10–15 minutes
+									each) with a short break.
+								</li>
+							</ul>
+
+							<h3 class="mt-4">Equipment</h3>
+							<ul>
+								<li>Mask, snorkel, fins</li>
+								<li>Glove (for the stick hand)</li>
+								<li>Short stick (one hand only)</li>
+								<li>Cap (numbered, with ear protection)</li>
+								<li>Lead puck (~1.3–1.5kg)</li>
+							</ul>
+
+							<h3 class="mt-4">Rules at a Glance</h3>
+							<ul>
+								<li>
+									No breathing gear; players surface to breathe and rotate with
+									teammates.
+								</li>
+								<li>
+									Stick must be used to play the puck—no hands or body blocking.
+								</li>
+								<li>
+									Non-contact: shoulder-to-shoulder is okay, dangerous play is
+									penalized.
+								</li>
+								<li>
+									Play restarts at center after a goal; infringements lead to
+									free pucks or penalties.
+								</li>
+							</ul>
+
+							<h3 class="mt-4">Why It’s Awesome</h3>
+							<ul>
+								<li>Total-body workout and low-impact on joints</li>
+								<li>Teamwork and strategy under time and breath pressure</li>
+								<li>
+									Inclusive and welcoming—great for beginners and cross-training
+								</li>
+							</ul>
+
+							<details class="text-white mt-4">
+								<summary><strong>FAQs</strong></summary>
+								<ul>
+									<li>
+										<strong>Do I need experience?</strong> No, if you can swim
+										comfortably, you can learn.
+									</li>
+									<li>
+										<strong>What should I bring first time?</strong> Swimsuit
+										and towel. We’ll help with the rest.
+									</li>
+									<li>
+										<strong>Is it safe?</strong> Yes, non-contact rules and
+										certified refs keep play safe.
+									</li>
+								</ul>
+							</details>
+						</section>
 					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="body-container">
+					<HowToVideo />
 				</div>
 			</div>
 		</div>

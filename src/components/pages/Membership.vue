@@ -10,27 +10,21 @@
 					<h2 class="text-center text-white">Want to join</h2>
 				</div>
 			</div>
-			<div class="flex flex-col gap-6 p-4 bg-primary-light bg-opacity-50">
+			<div class="card">
 				<div class="body-container">
 					<div class="width-80">
 						<p
 							class="text-start sm:text-justify text-black text-bold w-full text-white"
 						>
-							Sed scelerisque iaculis semper. Aenean tempus fringilla dui, in
-							malesuada lacus pharetra sed. Fusce vel nulla vitae magna
-							vestibulum pellentesque eu viverra augue. Donec pulvinar, diam in
-							elementum faucibus, urna tellus ultricies tortor, quis suscipit
-							lorem lorem quis justo. Nunc consectetur elit ac augue lacinia, in
-							sodales augue cursus. Morbi porttitor consequat ipsum, quis
-							eleifend magna euismod vel. Fusce mattis porttitor feugiat.
-							Maecenas bibendum mattis interdum. Aenean tincidunt pharetra urna,
-							et cursus nisl sollicitudin nec. Sed elementum est at sem
-							placerat, eu hendrerit diam lacinia. Sed laoreet elit non mi
-							iaculis posuere. Aliquam erat volutpat. Donec nec fermentum ante,
-							vel aliquet quam. Orci varius natoque penatibus et magnis dis
-							parturient montes, nascetur ridiculus mus. Pellentesque elementum
-							lacus malesuada fermentum lacinia. Morbi magna est, tempor et
-							ipsum vehicula, hendrerit accumsan dui.
+							Joining Worcester Underwater Hockey Club is easy and affordable.
+							Our club fee is just R50 per month, which helps us maintain
+							equipment and support the sport locally. Training takes place at
+							The Gym Worcester , where members pay a separate gym fee
+							(currently R300 per month, subject to change by the gym). We train
+							Mondays and Wednesdays from 18:00–19:30 and Saturdays from
+							13:00–14:30. Whether you’re new to the sport or an experienced
+							player, our sessions are open to all fitness levels—just bring
+							your energy and enthusiasm!
 						</p>
 					</div>
 				</div>

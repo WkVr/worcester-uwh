@@ -110,4 +110,9 @@ export default {
 footer a:hover {
 	transition: color 0.2s ease-in-out;
 }
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
 </style>

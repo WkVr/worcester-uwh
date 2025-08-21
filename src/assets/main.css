@@ -48,6 +48,14 @@
 		color: #111827; /* Tailwind's gray-900 */
 	}
 
+	.card {
+		@apply flex flex-col gap-6 p-4 bg-primary-dark bg-opacity-50;
+	}
+
+	h3 {
+		@apply text-xl font-bold font-montserrat text-white;
+	}
+
 	@media (max-width: 640px) {
 		h1 {
 			@apply text-2xl font-bold font-montserrat;
