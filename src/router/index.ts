@@ -27,10 +27,6 @@ const routes: RouteRecordRaw[] = [
 				component: () => import('@components/pages/HowItWorks.vue'),
 			},
 			{
-				path: pages.how.path,
-				component: () => import('@components/pages/HowItWorks.vue'),
-			},
-			{
 				path: pages.membership.path,
 				component: () => import('@components/pages/Membership.vue'),
 			},

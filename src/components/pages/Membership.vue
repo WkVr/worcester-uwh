@@ -13,18 +13,23 @@
 			<div class="card">
 				<div class="body-container">
 					<div class="width-80">
-						<p
-							class="text-start sm:text-justify text-black text-bold w-full text-white"
-						>
+						<p class="text-start sm:text-justify w-full text-white">
 							Joining Worcester Underwater Hockey Club is easy and affordable.
 							Our club fee is just R50 per month, which helps us maintain
 							equipment and support the sport locally. Training takes place at
-							The Gym Worcester , where members pay a separate gym fee
-							(currently R300 per month, subject to change by the gym). We train
-							Mondays and Wednesdays from 18:00–19:30 and Saturdays from
-							13:00–14:30. Whether you’re new to the sport or an experienced
-							player, our sessions are open to all fitness levels—just bring
-							your energy and enthusiasm!
+							<span
+								><a
+									class="text-start hover:text-secondary-dark"
+									href="https://www.thegymza.co.za/"
+									>The Gym</a
+								></span
+							>
+							Worcester , where members pay a separate gym fee (currently R300
+							per month, subject to change by the gym). We train Mondays and
+							Wednesdays from 18:00–19:30 and Saturdays from 13:00–14:30.
+							Whether you’re new to the sport or an experienced player, our
+							sessions are open to all fitness levels—just bring your energy and
+							enthusiasm!
 						</p>
 					</div>
 				</div>

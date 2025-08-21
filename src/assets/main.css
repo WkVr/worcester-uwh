@@ -34,6 +34,14 @@
 		font-size: x-large;
 	}
 
+	p a,
+	p,
+	li,
+	section {
+		@apply text-base font-montserrat;
+		font-size: large;
+	}
+
 	nav a,
 	nav button {
 		color: #374151; /* Tailwind's gray-700 */
@@ -49,7 +57,7 @@
 	}
 
 	.card {
-		@apply flex flex-col gap-6 p-4 bg-primary-dark bg-opacity-50;
+		@apply flex flex-col gap-6 p-4 bg-primary-dark bg-opacity-70 rounded-lg shadow-lg;
 	}
 
 	h3 {

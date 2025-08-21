@@ -28,6 +28,8 @@ const props = defineProps({
 	modest: { type: Boolean, default: true }, // modestbranding
 });
 
+console.log('HowToVideo component loaded with props:', props);
+
 const embedUrl = computed(() => {
 	const base = `https://www.youtube-nocookie.com/embed/${props.videoId}`;
 	const params = new URLSearchParams({

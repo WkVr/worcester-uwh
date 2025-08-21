@@ -139,7 +139,7 @@ const menuItems = [
 		href: pages.about.path,
 	},
 	{
-		label: 'How does it work',
+		label: 'How to play',
 		href: pages.how.path,
 	},
 	{

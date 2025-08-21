@@ -8,7 +8,7 @@ import Collage from './Collage.vue';
 	>
 		<div class="flex flex-col">
 			<div class="body-container justify-start flex-1 flex-col gap-6">
-				<div class="mt-8 p-4 flex-1 items-center justify-center">
+				<div class="card mt-4">
 					<h2 class="text-center text-bold text-white">
 						Welcome to the Worcester Underwater Hockey Club
 					</h2>
@@ -27,7 +27,7 @@ import Collage from './Collage.vue';
 				<div class="body-container grid grid-cols-2">
 					<div class="">
 						<div class="width-80 gap-4">
-							<h2>Why Underwater Hockey?</h2>
+							<h3 class="mb-1">Why Underwater Hockey?</h3>
 							<ul>
 								<li>Suitable for all ages and skill levels.</li>
 								<li>Fun way to stay fit and make new friends.</li>
@@ -36,7 +36,7 @@ import Collage from './Collage.vue';
 									water.
 								</li>
 							</ul>
-							<h2 class="pt-4">Who Can Join?</h2>
+							<h3 class="mb-1 pt-4">Who Can Join?</h3>
 							<p>
 								We welcome all ages and skill levels – from curious beginners to
 								experienced athletes. If you can swim and enjoy the water, you
@@ -44,7 +44,7 @@ import Collage from './Collage.vue';
 								experience the thrill of the game. All you need is a swimsuit –
 								we’ll help with the rest!
 							</p>
-							<h2 class="pt-4">Get Involved</h2>
+							<h3 class="mb-1 pt-4">Get Involved</h3>
 							<p>
 								Come try a session, sharpen your skills, and experience the
 								thrill of the game. All you need is the spirit – we’ll help with
