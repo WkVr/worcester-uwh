@@ -5,7 +5,7 @@
 				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
 					<!-- Mobile menu button-->
 					<DisclosureButton
-						class="relative inline-flex items-center justify-center rounded-sm text-gray-400 hover:bg-primary-main hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset"
+						class="relative inline-flex items-center justify-center rounded-sm text-gray-400 hover:bg-primary-dark hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset"
 					>
 						<span class="absolute -inset-0.5" />
 						<span class="sr-only">Open main menu</span>
