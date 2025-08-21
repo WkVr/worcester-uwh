@@ -1,13 +1,13 @@
 <template>
 	<nav class="">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="flex justify-between h-16">
+			<div class="flex justify-between h-auto">
 				<!-- Logo -->
 				<div class="w-auto">
 					<a href="/" class="text-xl font-bold text-gray-800"
 						><img
 							src="@assets/logo.png"
-							alt="Signature Vision"
+							alt="Worcester Underwater hockey Club"
 							class="w-1/2 md:w-1/4 md:my-2 py-2"
 					/></a>
 				</div>
@@ -120,6 +120,7 @@
 </template>
 
 <script setup>
+import { pages } from '@/router/pages';
 import { ref } from 'vue';
 
 const dropdownOpen = ref(null);
@@ -135,19 +136,19 @@ const closeDropdown = () => {
 const menuItems = [
 	{
 		label: 'About Us',
+		href: pages.about.path,
 	},
 	{
 		label: 'How does it work',
+		href: pages.how.path,
 	},
 	{
 		label: 'Our Club',
 		children: [
-			{ label: 'Contact Us', href: '/contact' },
-			{ label: 'Location', href: '/location' },
-			{ label: 'Membership', href: '/membership' },
-			{ label: 'Our Team', href: '/membership' },
+			{ label: 'Contact Us', href: pages.contact.path },
+			{ label: 'Membership', href: pages.membership.path },
 		],
 	},
-	{ label: 'Contact', href: '/contact' },
+	{ label: 'Gallery', href: pages.gallery.path },
 ];
 </script>

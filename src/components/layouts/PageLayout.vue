@@ -1,13 +1,14 @@
 <script setup>
 import Header from '@components/layouts/Header.vue';
+import Footer from '@components/layouts/Footer.vue';
 </script>
 
 <template>
 	<div class="h-screen">
 		<Header />
-		<main class="pb-6">
+		<main>
 			<router-view />
 		</main>
-		<div class="p-6"></div>
+		<Footer />
 	</div>
 </template>
