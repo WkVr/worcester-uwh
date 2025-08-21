@@ -19,6 +19,16 @@
 		font-size: large;
 	}
 
+	div p,
+	div h2,
+	div ul li {
+		@apply text-start sm:text-justify text-black w-full text-white font-medium;
+	}
+
+	ul {
+		@apply list-disc pl-5;
+	}
+
 	a {
 		@apply text-base font-montserrat;
 		font-size: x-large;
